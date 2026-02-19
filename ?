@@ -1,1 +1,96 @@
-aaa
+Haan bhai 😄 chalo full official Array functions list de deta hoon (simple way).
+
+ ✅ JavaScript Array.prototype Methods (~40)
+
+🔹 Add / Remove
+
+1. `push()`
+2. `pop()`
+3. `shift()`
+4. `unshift()`
+5. `splice()`
+
+---
+🔹 Copy / Extract
+
+6. `slice()`
+7. `concat()`
+8. `copyWithin()`
+9. `fill()`
+
+---
+
+🔹 Convert to String
+
+10. `join()`
+11. `toString()`
+12. `toLocaleString()`
+
+🔹 Search / Find
+
+13. `indexOf()`
+14. `lastIndexOf()`
+15. `includes()`
+16. `find()`
+17. `findIndex()`
+18. `findLast()`
+19. `findLastIndex()`
+
+---
+🔹 Iteration / Loop
+
+20. `forEach()`
+21. `map()`
+22. `filter()`
+23. `reduce()`
+24. `reduceRight()`
+25. `some()`
+26. `every()`
+
+---
+
+🔹 Flatten
+
+27. `flat()`
+28. `flatMap()`
+
+---
+
+🔹 Sorting / Reversing
+
+29. `sort()`
+30. `reverse()`
+31. `toReversed()` *(new)*
+32. `toSorted()` *(new)*
+
+---
+
+🔹 Modify without changing original (new methods)
+
+33. `toSpliced()`
+34. `with()`
+
+---
+
+🔹 Keys / Values / Entries
+
+35. `keys()`
+36. `values()`
+37. `entries()`
+
+---
+🔹 Check / Utility
+
+38. `at()`
+39. `Array.isArray()` *(static)*
+40. `length` *(property)*
+
+---
+
+ ⭐ Total
+
+✅ Around **37–40 Array methods** depending on JS version.
+
+---
+
+Bhai agar tum chaho to main har method ka 1-line example bhi bana dunga 😄
