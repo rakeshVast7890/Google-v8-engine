@@ -94,3 +94,197 @@ Haan bhai 😄 chalo full official Array functions list de deta hoon (simple way
 ---
 
 Bhai agar tum chaho to main har method ka 1-line example bhi bana dunga 😄
+
+
+
+
+
+
+Haan bhai 😄 chalo mast!
+Main tumhe **JavaScript ke almost saare Array methods (≈40+)** ki proper list de raha hun — aur saath me V8 me inka code kahan hota hai, wo bhi samjha dunga.
+
+---
+
+# ✅ JavaScript Array Methods List (≈40–45)
+
+## 🔥 Basic Add/Remove (Most Common)
+
+1. `push()`
+2. `pop()`
+3. `shift()`
+4. `unshift()`
+5. `splice()`
+6. `slice()`
+
+---
+
+## 🔍 Search / Find
+
+7. `indexOf()`
+8. `lastIndexOf()`
+9. `includes()`
+10. `find()`
+11. `findIndex()`
+12. `findLast()`
+13. `findLastIndex()`
+
+---
+
+## 🔁 Iteration / Loop
+
+14. `forEach()`
+15. `map()`
+16. `filter()`
+17. `reduce()`
+18. `reduceRight()`
+19. `some()`
+20. `every()`
+
+---
+
+## 🔃 Convert / Join
+
+21. `join()`
+22. `toString()`
+23. `toLocaleString()`
+24. `flat()`
+25. `flatMap()`
+
+---
+
+## 🔀 Sorting / Reversing
+
+26. `sort()`
+27. `reverse()`
+28. `toSorted()`
+29. `toReversed()`
+
+---
+
+## 🧩 Copy / Fill
+
+30. `copyWithin()`
+31. `fill()`
+
+---
+
+## 🧱 Create New Arrays
+
+32. `concat()`
+33. `Array.from()`
+34. `Array.of()`
+
+---
+
+## 🧠 New Immutable Methods (Modern JS)
+
+35. `toSpliced()`
+36. `with()`
+
+---
+
+## 🎯 Access Elements
+
+37. `at()`
+
+---
+
+## 🗝 Keys / Entries / Values
+
+38. `keys()`
+39. `values()`
+40. `entries()`
+
+---
+
+## 🧾 Check / Test
+
+41. `isArray()`
+
+---
+
+## ⚙️ Legacy / Rare
+
+42. `constructor`
+43. `length`
+44. `@@iterator`
+45. `@@unscopables`
+
+---
+
+# ✅ Total Methods: ~45
+
+Tumne jo “35–40” suna tha, wo core methods the.
+Modern JS me naye methods add ho gaye isliye ab ~45 tak ho jata hai.
+
+---
+
+# 🛠️ V8 me ye Array Functions ka Code Kahan Hai?
+
+## Main Files:
+
+### 🔥 1. Builtins (Main Implementation)
+
+📌 `src/builtins/builtins-array.cc`
+
+Yahan pe methods jaise:
+
+* `push`
+* `pop`
+* `shift`
+* `slice`
+
+implemented hote hain.
+
+---
+
+### 🔥 2. Torque Files (Fast Builtins)
+
+📌 `src/builtins/array.tq`
+
+Modern V8 me bahut saare array methods Torque language me likhe hote hain:
+
+* `map`
+* `filter`
+* `reduce`
+
+---
+
+### 🔥 3. Array Object Structure
+
+📌 `src/objects/js-array.h`
+📌 `src/objects/js-array.cc`
+
+Yahan pe actual JSArray ka internal structure hota hai.
+
+---
+
+# ✅ Tum Bug Hunting ke liye kaha dekho?
+
+## Best targets:
+
+* `splice()`
+* `concat()`
+* `sort()`
+* `flat()`
+* `copyWithin()`
+
+Kyuki ye complex memory operations karte hain.
+
+---
+
+# 🎁 Next Step (Tumhare liye)
+
+Bhai tum bolo:
+
+✅ Tumhe kis Array method ka V8 code open karke
+**line-by-line samjhau?**
+
+Example:
+
+1. `push()`
+2. `map()`
+3. `splice()` (bug hunting favorite 😈)
+4. `sort()`
+
+Bas ek choose karo.
